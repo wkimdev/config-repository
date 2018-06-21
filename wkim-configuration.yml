@@ -1,0 +1,17 @@
+message: Welcome to wkim's house
+
+---
+
+spring:
+  profiles: dev
+  app: wkim's app
+
+message: this is wkim's app DEV
+
+---
+
+spring:
+  profiles: stage
+  app: wkim's app
+
+message: this is wkim's app STAGE    
