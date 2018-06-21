@@ -6,7 +6,7 @@ spring:
   profiles: dev
   app: wkim's app
 
-message: this is wkim's app DEV
+message: this is wkim's app DEV1111
 
 ---
 
