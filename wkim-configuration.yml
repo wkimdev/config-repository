@@ -1,17 +1,43 @@
 message: Welcome to wkim's house
 
 ---
-
+#Spring profiles : LOCAL
 spring:
   profiles: dev
-  app: wkim's app
 
-message: this is wkim's app DEV11112222223333
+#Couchbase setup
+couchbase:
+  bucket:
+    name: wkimdev
+    password: wkimdev
+    ip: localhost
+    expiry: 0 
+
 
 ---
-
+#Spring profiles : STAGE
 spring:
   profiles: stage
-  app: wkim's app
 
-message: this is wkim's app STAGE    
+#Couchbase setup
+couchbase:
+  bucket:
+    name: set your stage couchbase name
+    password: set your stage couchbase password
+    ip: set your stage couchbase ip
+    expiry: 0 
+
+
+---
+#Spring profiles : PROD
+spring:
+  profiles: prodp
+
+#Couchbase setup
+couchbase:
+  bucket:
+    name: set your prod couchbase name
+    password: set your prod couchbase password
+    ip: set your prod couchbase ip
+    expiry: 0 
+  
